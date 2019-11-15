@@ -25,4 +25,8 @@ key points learnt:
 2.Method can be used in 2 ways:
    a. stringobject.split(regularexpression,number of words to split)= splits the string until the number of words are reached.
    b. stringobject.split(regularexpression)= splits for the entities mentioned in the regular expression.
+3.Patterns are used for compiling if the regular expressions and matching/appliying the pattern on the given sequence.
+ Pattern.compile(string a) -- used to check for regular expression.
+ Pattern.compile(string a, flag)--> example of flag can be Pattern.CASE_SENSITIVE.
+ PatternObject.matcher(string b) --> used to match pattern
 
