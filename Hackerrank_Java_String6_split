@@ -1,0 +1,30 @@
+//Delimiting the string using regular expression  
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        String s = scan.nextLine();
+        //Regular expression=[A-Za-z !,?._'@]+
+        // Write your code here.
+        //[ !,?._'@]+,
+        String A = s.trim();
+        if(s.trim().length()==0){
+            System.out.println("0");
+        }
+        else if(A.length()>=0 && A.length()<400000){
+         String []tokens= A.split("[ .,?!'_@]+");
+         System.out.println(tokens.length);
+         for(String token: tokens){
+            System.out.println(token);
+        }
+        }
+        else return;
+        
+
+        scan.close();
+    }
+}
+
