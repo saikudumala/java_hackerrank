@@ -19,3 +19,10 @@ char a[]= {'a','b'};
 6.String creation using stringbuilder and string buffer
 7.String(StringBuilder stringbuilderobjecy), String(StringBuffer stringbuffer object);
 
+15/11/2019:
+key points learnt:
+1.Split method is used for splitting the string using delimiter.
+2.Method can be used in 2 ways:
+   a. stringobject.split(regularexpression,number of words to split)= splits the string until the number of words are reached.
+   b. stringobject.split(regularexpression)= splits for the entities mentioned in the regular expression.
+
